@@ -37,7 +37,7 @@ export const Biography = () => {
         several bombs and mailed them to various targets through the United States Postal Service.\
         The Unabomber sent out nine pipe bombs during a seven year period, targeting airlines and\
         academic advisors. The FBI dubbed him the Unabomber because of his targets (Universities and Airlines).\
-        After being spotted planting a bomb on February 20, 1987 while planting a bomb, the Unabomber took a\
+        After being spotted planting a bomb on February 20, 1987, the Unabomber took a\
         six-year break until 1993. The Unabomber released his manifesto "Industrial Society and Its Future\
         in 1995. It emphasized the idea that technology was the destruction of human freedom due to\
         its need to "regulate human behavior closely in order to function." FBI agent James R. Fitzgerald\
