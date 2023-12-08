@@ -36,3 +36,414 @@
     transform: rotate(360deg);
   }
 }
+
+
+nav.navbar{
+  padding: 18px 0;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32 ease-in-out;
+}
+
+nav.bar.scrolled{
+  padding: 0px 0;
+  background-color: black;
+}
+
+nav.navbar a.navbar-brand{
+  width: 9%;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link{
+  font-weight: 400;
+  color: black !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active{
+  opacity: 1;
+}
+
+span.navbar-text{
+  display: flex;
+  align-items: center;
+}
+/*
+.social-icon a::before{
+  content: "";
+  width: 42px;
+  height:42px;
+  padding-right: 20px;
+  position:absolute;
+  background-color: white;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+*/
+
+.navbar-text button {
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-text button span{
+  z-index: 1;
+}
+
+.navbar-text button::before{
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-text button:hover{
+  color: black;
+}
+
+.navbar-text button:hover::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+nav.navbar .navbar-toggler-icon{
+  width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 2px solid white;
+  transition: all 300ms linear;
+  top: -2px;
+}
+
+nav.navbar .navbar-toggler-icon:focus{
+  border-bottom: 2px solid white;
+}
+
+nav.navbar .navbar-toggler-icon:after,
+nav.navbar .navbar-toggler-icon::before{
+  width: 24px;
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  top:0;
+  left:0;
+  content: '';
+  z-index: 2;
+  transition: all 300ms linear;
+}
+
+nav.navbar .navbar-toggler-icon:after{
+  top: 8px;
+}
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after{
+  transform: rotate(45deg);
+  background-color: white;
+  height: 2px;
+}
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before{
+  transform: translateY(8px) rotate(-45deg);
+  background-color: white;
+  height: 2px;
+}
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
+  border-color: transparent;
+}
+
+/* Home */
+
+.home {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+}
+
+.banner h1{
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.banner p{
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%
+}
+
+.treatment {
+  padding: 0 0 50px 0;
+  position: relative;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.treatment-box{
+  background: mintcream;
+  border-radius: 64px;
+  border-color: white;
+  text-align: center;
+  padding: 60px 60px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.treatment h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.treatment p{
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.treatment-slider{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.treatment-slider .item img{
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.biography {
+  padding: 80px 0;
+  position: relative;
+  background-color: white;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.biography h1{
+  padding-top: 25px;
+}
+
+.biography img.unabomb-child{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.biography img.unabomb-college{
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.biography img.unabomb-adult{
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.biography h2{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.biography p {
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 70%;
+}
+
+.biography .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: (plum / 10%);
+  overflow: hidden;
+}
+
+.biography .nav.nav-pills .nav-item{
+  width: 33.3%;
+}
+
+.biography .nav.nav-pills .nav-link{
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 17px 0;
+  color: black;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+
+.biography .nav.nav-pills .nav-link::before{
+  content: "";
+  position: absolute;
+  width:0;
+  height: 100%;
+  background: linear-gradient(90deg, black -5.91%, mintcream 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.biography .nav.nav-pills .nav-link.active::before{
+  width:100% !important;
+}
+
+.biography .nav.nav-pills .nav-link.active{
+  border: 0px solid black;
+  color: white;
+}
+
+.nav-link#biograph.biography-tabs-tab-first{
+  border: 5px;
+  border-radius: 55px 0px 0px 55px;
+}
+
+.nav-link#biograph.biography-tabs-tab-second{
+  border: 5px;
+  border-radius: 0px 55px 55px 0px;
+}
+
+.nav-link#biograph.biography-tabs-tab-third{
+  border:5px black;
+  border-radius: 0px 55px 55px 0px;
+}
+
+
+.diagnosis {
+  padding: 80px 0;
+  position: relative;
+  background-color: white;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.diagnosis h2{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.diagnosis h1{
+  padding-top: 25px;
+}
+
+.diagnosis li {
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 70%;
+  list-style-type: none;
+}
+
+.diagnosis .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: (plum / 10%);
+  overflow: hidden;
+}
+
+.diagnosis .nav.nav-pills .nav-item{
+  width: 50%;
+}
+
+.diagnosis .nav.nav-pills .nav-link{
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: black;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+
+.diagnosis .nav.nav-pills .nav-link::before{
+  content: "";
+  position: absolute;
+  width:0;
+  height: 100%;
+  background: linear-gradient(90deg, black -5.91%, mintcream 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.diagnosis .nav.nav-pills .nav-link.active::before{
+  width:100% !important;
+}
+
+.diagnosis .nav.nav-pills .nav-link.active{
+  border: 5px solid black;
+  color: white;
+}
+
+.nav-link#diagnosis-tabs-tab-first{
+  border: 5px;
+  border-radius: 55px 0px 0px 55px;
+}
+
+.nav-link#diagnosis-tabs-tab-second{
+  border: 5px;
+  border-radius: 0px 55px 55px 0px;
+}
