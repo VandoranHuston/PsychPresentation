@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PsychPresentation/static/css/main.760ee4ad.css",
-    "main.js": "/PsychPresentation/static/js/main.16b58e43.js",
+    "main.js": "/PsychPresentation/static/js/main.56b9f412.js",
     "static/js/787.a9cc61f1.chunk.js": "/PsychPresentation/static/js/787.a9cc61f1.chunk.js",
     "static/media/antipsychotics.png": "/PsychPresentation/static/media/antipsychotics.325ac565dd7795fb8b12.png",
     "static/media/TokenEcon.webp": "/PsychPresentation/static/media/TokenEcon.cb1f3265ddf37ebf1857.webp",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/PsychPresentation/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PsychPresentation/index.html",
     "main.760ee4ad.css.map": "/PsychPresentation/static/css/main.760ee4ad.css.map",
-    "main.16b58e43.js.map": "/PsychPresentation/static/js/main.16b58e43.js.map",
+    "main.56b9f412.js.map": "/PsychPresentation/static/js/main.56b9f412.js.map",
     "787.a9cc61f1.chunk.js.map": "/PsychPresentation/static/js/787.a9cc61f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.760ee4ad.css",
-    "static/js/main.16b58e43.js"
+    "static/js/main.56b9f412.js"
   ]
 }
